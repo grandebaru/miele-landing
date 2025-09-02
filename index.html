@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Miele del Nostro Apiario</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miele del Nostro Apiario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"/>
 </head>
 <body>
-  <header>
+
+<header>
     <h1>Miele del Nostro Apiario</h1>
     <p>Dal fiore al barattolo, direttamente per te</p>
-  </header>
+</header>
 
-  <section class="gallery" id="gallery"></section>
+<section class="gallery">
+    <a href="img/apiario.jpg" class="glightbox"><img src="img/apiario.jpg" alt="Apiario"></a>
+    <a href="img/fiori.jpg" class="glightbox"><img src="img/fiori.jpg" alt="Fiori"></a>
+    <a href="img/miele.jpg" class="glightbox"><img src="img/miele.jpg" alt="Miele"></a>
+    <a href="img/raccolta.jpg" class="glightbox"><img src="img/raccolta.jpg" alt="Raccolta"></a>
+</section>
 
-  <section class="section">
+<section class="section">
     <h2>La Storia del Nostro Miele</h2>
     <p>
-      Il nostro miele nasce da api allevate con cura vicino alle colline della Toscana.  
-      Ogni barattolo racchiude profumi e colori dei fiori locali, raccolti con amore e rispetto per la natura.
+        Il nostro miele nasce da api allevate con cura vicino alle colline della Toscana.  
+        Ogni barattolo racchiude profumi e colori dei fiori locali, raccolti con amore e rispetto per la natura.
     </p>
-  </section>
+</section>
 
-  <section class="section">
+<section class="section">
     <h2>Dove Nasce</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.123456789!2d11.123456!3d43.123456"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.123456789!2d11.123456!3d43.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132123456789abcdef%3A0xabcdef1234567890!2sApiario!5e0!3m2!1sit!2sit!4v1690000000000" allowfullscreen="" loading="lazy"></iframe>
+</section>
 
-  <footer>
+<footer>
     Seguici sui social: <a href="#">Instagram</a> | <a href="#">Facebook</a>
-  </footer>
+</footer>
 
-  <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({});
+</script>
+
 </body>
 </html>

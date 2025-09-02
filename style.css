@@ -1,58 +1,49 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #fff8f0;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff8f0;
+    color: #333;
 }
-
 header {
-  background: #ffc107;
-  padding: 20px;
-  text-align: center;
+    background: #ffc107;
+    padding: 20px;
+    text-align: center;
 }
-
 header h1 {
-  margin: 0;
-  font-size: 1.8em;
+    margin: 0;
+    font-size: 1.8em;
 }
-
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
 }
-
 .gallery img {
-  width: 100%;
-  border-radius: 8px;
-  cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
 }
-
 .section {
-  padding: 20px;
+    padding: 20px;
 }
-
 .section h2 {
-  color: #d2691e;
+    color: #d2691e;
 }
-
 iframe {
-  width: 100%;
-  height: 300px;
-  border: none;
-  border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
 }
-
 footer {
-  text-align: center;
-  padding: 15px;
-  background: #ffd54f;
-  font-size: 0.9em;
+    text-align: center;
+    padding: 15px;
+    background: #ffd54f;
+    font-size: 0.9em;
 }
-
 @media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
 }
